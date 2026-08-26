@@ -1,5 +1,6 @@
 # obsolete GSAS-II settings file
 config.py
+!GSAS-S-AI/src/gsas_ai/config.py
 
 # local code for debugging
 debug_setup.py*
@@ -45,3 +46,12 @@ build
 *.lst
 
 *~
+
+.scratch/
+.scratch-final/
+.scratch-final-old/
+.scratch-old/
+
+# OMO/Codex local cache
+.omo/
+
